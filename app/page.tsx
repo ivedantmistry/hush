@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     siteName: "Hush Cabs",
     images: [
       {
-        url: "https://res.cloudinary.com/dcwzstwur/image/upload/v1762195015/h_ghhhsi.jpg",
+        url: "https://res.cloudinary.com/dcwzstwur/image/upload/v1762195153/imageedit_3_5154585736_eejloy.png",
         width: 180,
         height: 72,
         alt: "Hush Logo",
