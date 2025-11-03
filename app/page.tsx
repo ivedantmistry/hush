@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Hush: A Data-Driven Entrepreneurial Experiment",
     description: "A case study in Lean Startup and market validation.",
     images: [
-      "https://res.cloudinary.com/dcwzstwur/image/upload/v1762184373/HUSH_tb0whs.png",
+      "https://res.cloudinary.com/dcwzstwur/image/upload/v1762195153/imageedit_3_5154585736_eejloy.png",
     ],
   },
   authors: [{ name: "Vedant Mistry" }],
