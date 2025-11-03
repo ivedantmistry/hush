@@ -38,9 +38,9 @@ export default function HeroSection() {
             className="font-semibold text-primary underline underline-offset-4"
           >
             Hrishikesh Singh ↗
-          </a>{" "}
-          . We tested a new business model for ride-hailing, secured a research
-          grant, and made a data-driven decision to pivot.
+          </a>{" "}. 
+          We tested a new business model for ride-hailing, secured a research
+          grant, and made a data-driven decision to drop the idea.
         </p>
       </div>
     </section>

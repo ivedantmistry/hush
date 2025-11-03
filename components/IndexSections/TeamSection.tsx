@@ -66,7 +66,7 @@ export default function TeamSection() {
   return (
     <section className="py-20 px-6 bg-background">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center text-foreground">
+        <h2 className="text-4xl font-bold mb-12 text-center text-primary">
           Founding Team
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
@@ -88,7 +88,7 @@ export default function TeamSection() {
               {/* Social Links */}
               <div className="flex justify-center gap-4 my-4">
                 <a
-                  href="#" // <-- Add Vedant's LinkedIn URL here
+                  href="https://www.linkedin.com/in/ivedantmistry/" // <-- Add Vedant's LinkedIn URL here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -97,7 +97,7 @@ export default function TeamSection() {
                   <IconLinkedIn className="h-6 w-6" />
                 </a>
                 <a
-                  href="#" // <-- Add Vedant's GitHub URL here
+                  href="https://github.com/ivedantmistry" // <-- Add Vedant's GitHub URL here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -118,9 +118,7 @@ export default function TeamSection() {
 
               {/* Quote */}
               <blockquote className="border-l-2 border-primary pl-4 italic text-sm text-left text-muted-foreground mt-2 flex-grow">
-                "This project was a masterclass in separating a 'good idea' from
-                a 'viable business.' The data-driven decision to stop was our
-                biggest success."
+                "Try to invalidate quickly, and you’ll reach product–market fit faster."
               </blockquote>
             </CardContent>
           </Card>
@@ -129,7 +127,7 @@ export default function TeamSection() {
           <Card className="overflow-hidden hover:shadow-xl transition-shadow flex flex-col">
             <CardContent className="p-6 text-center flex flex-col flex-grow">
               <Image
-                src="https://res.cloudinary.com/dcwzstwur/image/upload/v1762170109/dummy_mrraqg.jpg"
+                src="https://res.cloudinary.com/dcwzstwur/image/upload/v1762192242/WhatsApp_Image_2025-11-03_at_23.20.28_1ec6e6eb_nvygki.jpg"
                 alt="Hrishikesh Singh"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 width={128}
@@ -139,13 +137,13 @@ export default function TeamSection() {
                 Mr. Hrishikesh Singh
               </h3>
               <p className="text-muted-foreground">
-                Technical Lead / Co-Founder
+                Marketing Lead / Co-Founder
               </p>
 
               {/* Social Links */}
               <div className="flex justify-center gap-4 my-4">
                 <a
-                  href="#" // <-- Add Hrishikesh's LinkedIn URL here
+                  href="https://www.linkedin.com/in/hrishikesh-singh-702737264/" // <-- Add Hrishikesh's LinkedIn URL here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -154,7 +152,7 @@ export default function TeamSection() {
                   <IconLinkedIn className="h-6 w-6" />
                 </a>
                 <a
-                  href="#" // <-- Add Hrishikesh's GitHub URL here
+                  href="https://github.com/hrishikesh1320/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -163,7 +161,7 @@ export default function TeamSection() {
                   <IconGitHub className="h-6 w-6" />
                 </a>
                 <a
-                  href="#" // <-- Add Hrishikesh's Website URL here
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -175,9 +173,8 @@ export default function TeamSection() {
 
               {/* Quote */}
               <blockquote className="border-l-2 border-primary pl-4 italic text-sm text-left text-muted-foreground mt-2 flex-grow">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                euismod, nisl nec faucibus, nisl nisl aliquet nisl, nec aliquet
-                nisl nisl sit."
+                "A startup isn’t built on ideas alone—it’s built on the courage
+                to take actions and go beyond."
               </blockquote>
             </CardContent>
           </Card>
