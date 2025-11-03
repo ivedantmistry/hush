@@ -35,7 +35,7 @@ export default function PrototypeSection() {
                 <li>
                   Hush Actor:{" "}
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/kavish-soni-3530602a2/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-primary underline underline-offset-4"
@@ -46,7 +46,7 @@ export default function PrototypeSection() {
                 <li>
                   Upset Actor:{" "}
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/manthanpatel24/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-primary underline underline-offset-4"
@@ -57,7 +57,7 @@ export default function PrototypeSection() {
                 <li>
                   Shot by:{" "}
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/krishna-chauhan-bb0641241/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-primary underline underline-offset-4"
@@ -69,7 +69,7 @@ export default function PrototypeSection() {
                 <li>
                   Edited by:{" "}
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/mahipal9/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-primary underline underline-offset-4"
@@ -80,7 +80,7 @@ export default function PrototypeSection() {
                 <li>
                   Directed & Written by:{" "}
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/ivedantmistry/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-primary underline underline-offset-4"
@@ -89,7 +89,7 @@ export default function PrototypeSection() {
                   </a>{" "}
                   &{" "}
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/amaan-tai-9a9370250/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-primary underline underline-offset-4"
@@ -130,7 +130,7 @@ export default function PrototypeSection() {
               </h4>
               <p>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/mahipal9/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-semibold text-primary underline underline-offset-4"
@@ -139,7 +139,7 @@ export default function PrototypeSection() {
                 </a>{" "}
                 &{" "}
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/ivedantmistry/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-semibold text-primary underline underline-offset-4"

@@ -2,14 +2,14 @@ export default function AcknowledgementsSection() {
   return (
     <section className="py-20 px-6 bg-card">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold mb-8 text-foreground">
+        <h2 className="text-4xl font-bold mb-8 text-primary">
           Acknowledgements
         </h2>
         <div className="space-y-6 text-foreground/80 leading-relaxed">
           <p>
             This project was a journey, and one we did not walk alone. Our
-            deepest gratitude goes to the institutions that believed in this idea
-            from the start. To the{" "}
+            deepest gratitude goes to the institutions that believed in this
+            idea from the start. To the{" "}
             <a
               href="https://guiitarstartupcouncil.org/"
               target="_blank"
@@ -34,7 +34,7 @@ export default function AcknowledgementsSection() {
             We were guided by incredible mentors and leaders. Our special thanks
             to{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/bimal-bhayani-156b67aa/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -43,7 +43,7 @@ export default function AcknowledgementsSection() {
             </a>{" "}
             (ex CEO, GUIITAR) and{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/kirankumar-parmar-01b81499/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -60,14 +60,14 @@ export default function AcknowledgementsSection() {
             >
               Ms. Bhavika Darji ↗
             </a>{" "}
-            as our Project Mentor; your insights and constant support were a true
-            guiding light.
+            as our Project Mentor; your insights and constant support were a
+            true guiding light.
           </p>
           <p>
             A vision is only as strong as the team that builds it. We want to
             thank{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/amaan-tai-9a9370250/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -77,7 +77,7 @@ export default function AcknowledgementsSection() {
             for his foundational contributions as a founding member, and our
             Chief Designer,{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/mahipal9/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -87,7 +87,7 @@ export default function AcknowledgementsSection() {
             , for bringing our entire aesthetic to life. For our concept ad, we
             owe a huge thank you to{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/krishna-chauhan-bb0641241/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -96,7 +96,7 @@ export default function AcknowledgementsSection() {
             </a>{" "}
             for his fantastic camera work, and to our talented actors,{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/manthanpatel24/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -105,7 +105,7 @@ export default function AcknowledgementsSection() {
             </a>{" "}
             &{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/kavish-soni-3530602a2/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -119,7 +119,7 @@ export default function AcknowledgementsSection() {
             project—would not have been possible without our dedicated survey
             team. A heartfelt thank you to{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/manthanpatel24/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -128,16 +128,7 @@ export default function AcknowledgementsSection() {
             </a>
             ,{" "}
             <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-primary underline underline-offset-4"
-            >
-              Mr. Ravi Vyas ↗
-            </a>
-            ,{" "}
-            <a
-              href="#"
+              href="https://www.linkedin.com/in/palak-panchal-64587a286/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -146,7 +137,7 @@ export default function AcknowledgementsSection() {
             </a>
             ,{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/krina-patel-b397822b2/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -155,7 +146,7 @@ export default function AcknowledgementsSection() {
             </a>
             ,{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/prince-mac-web-designer-0609p/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -164,29 +155,37 @@ export default function AcknowledgementsSection() {
             </a>
             ,{" "}
             <a
-              href="#"
-
+              href="https://www.linkedin.com/in/om-panchal-58b94831b/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
             >
               Mr. Om Panchal ↗
             </a>
-            , and{" "}
+            ,{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/vaidik-vaghasiya-65a303344/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
             >
               Mr. Vagishya Vaidik ↗
             </a>{" "}
-            for your time and effort on the ground.
+            and{" "}
+            <a
+              href="https://www.linkedin.com/in/ravivyas16/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary underline underline-offset-4"
+            >
+              Mr. Ravi Vyas ↗
+            </a>
+            , for your time and effort on the ground.
           </p>
           <p>
             Finally, we're grateful to{" "}
             <a
-              href="#"
+              href="wa.me/919725321700"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"
@@ -195,7 +194,7 @@ export default function AcknowledgementsSection() {
             </a>{" "}
             for his expert guidance on company structures and to{" "}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/professor-g-r-sinha-65713b18/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-primary underline underline-offset-4"

@@ -28,11 +28,18 @@ export default function HeroSection() {
             rel="noopener noreferrer"
             className="font-semibold text-primary underline underline-offset-4"
           >
-            Vedant Mistry
+            Vedant Mistry ↗
           </a>{" "}
           and{" "}
-          <span className="font-semibold text-primary">Hrishikesh Singh</span>.
-          We tested a new business model for ride-hailing, secured a research
+          <a
+            href="https://www.linkedin.com/in/hrishikesh-singh-702737264/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-primary underline underline-offset-4"
+          >
+            Hrishikesh Singh ↗
+          </a>{" "}
+          . We tested a new business model for ride-hailing, secured a research
           grant, and made a data-driven decision to pivot.
         </p>
       </div>

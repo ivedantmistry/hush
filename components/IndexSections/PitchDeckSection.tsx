@@ -52,7 +52,7 @@ export default function PitchDeckSection() {
             <p>
               Design by{" "}
               <a
-                href="#"
+                href="https://www.linkedin.com/in/mahipal9/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold text-primary underline underline-offset-4"
@@ -61,7 +61,7 @@ export default function PitchDeckSection() {
               </a>{" "}
               and Market Research by{" "}
               <a
-                href="#"
+                href="https://www.linkedin.com/in/ivedantmistry/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold text-primary underline underline-offset-4"

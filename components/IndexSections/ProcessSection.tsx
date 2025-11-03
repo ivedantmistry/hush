@@ -6,13 +6,17 @@ export default function ProcessSection() {
           From Hypothesis to Validation
         </h2>
         <p className="text-lg text-foreground/80 leading-relaxed">
-          A good idea is just a hypothesis. To test ours, we applied{" "}
-          <strong>Lean Startup principles</strong> to move from concept to
-          real-world validation. This process was backed by a{" "}
+          A good idea is just a hypothesis. To test ours, we applied
+          <strong> Lean Startup principles</strong>. This process was backed by
+          a{" "}
           <span className="font-semibold text-primary">
             ₹2,40,000 grant from SSIP 2.0
-          </span>{" "}, which we secured to fund our market research, prototype development,
-          and viability testing.
+          </span>
+          , but our real work wasn't just building a prototype. It was "getting
+          out of the building." We conducted extensive market research by
+          meeting the real people at the center of our idea. We interviewed
+          countless rickshaw drivers, surveyed potential passengers, and learned
+          everything we could about the market's true viability.
         </p>
       </div>
     </section>
