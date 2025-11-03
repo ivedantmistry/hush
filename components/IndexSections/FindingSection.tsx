@@ -6,14 +6,17 @@ export default function FindingsSection() {
           What the Data Taught Us
         </h2>
         <blockquote className="border-l-4 border-primary pl-6 py-4 mb-8 italic text-xl text-foreground/90">
-          After thorough market analysis and validation, we made the strategic, data-driven decision
-          to discontinue the project. Our research showed the two-wheeler taxi model, dominated by
-          competitors like Rapido, had created market saturation that made our initial launch
-          unviable.
+          Our market validation revealed a critical insight: the ride-hailing
+          market, particularly in our target cities, was already{" "}
+          <strong>heavily saturated</strong> by competitors like Rapido. Their
+          dominant two-wheeler taxi model created an insurmountable barrier to
+          entry for our new platform.
         </blockquote>
         <p className="text-lg text-foreground/80 leading-relaxed text-center">
-          This project was a success in learning. It demonstrated our adaptability and commitment to
-          data-driven decision-making over blind passion.
+          Ultimately, the data showed our path was unviable. We made the tough,
+          but correct, <strong>data-driven decision to discontinue</strong> the
+          project. This experiment was a success in entrepreneurial learning,
+          proving our team's adaptability and commitment to following the data.
         </p>
       </div>
     </section>

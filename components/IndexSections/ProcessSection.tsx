@@ -6,13 +6,14 @@ export default function ProcessSection() {
           From Hypothesis to Validation
         </h2>
         <p className="text-lg text-foreground/80 leading-relaxed">
-          We applied Lean Startup principles to test our hypothesis. Our
-          validation process was supported by a{" "}
+          A good idea is just a hypothesis. To test ours, we applied{" "}
+          <strong>Lean Startup principles</strong> to move from concept to
+          real-world validation. This process was backed by a{" "}
           <span className="font-semibold text-primary">
             ₹2,40,000 grant from SSIP 2.0
-          </span>
-          , which we secured to conduct market research, build a prototype, and
-          validate real-world viability.
+          </span>{" "}
+          , which we secured to fund our market research, prototype development,
+          and viability testing.
         </p>
       </div>
     </section>

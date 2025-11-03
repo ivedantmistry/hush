@@ -1,3 +1,5 @@
+import Image from "next/image"; // Make sure this import is added
+
 // This component now embeds the actual YouTube video
 export default function PrototypeSection() {
   return (
@@ -29,12 +31,22 @@ export default function PrototypeSection() {
               Mobile App
             </h3>
             <div className="flex gap-4 justify-center">
-              <div className="w-48 h-96 bg-muted rounded-2xl shadow-xl border-4 border-muted-foreground/20 flex items-center justify-center">
-                <p className="text-muted-foreground text-sm">App Screen 1</p>
-              </div>
-              <div className="w-48 h-96 bg-muted rounded-2xl shadow-xl border-4 border-muted-foreground/20 flex items-center justify-center">
-                <p className="text-muted-foreground text-sm">App Screen 2</p>
-              </div>
+              {/* --- Replaced placeholder with Image component --- */}
+              <Image
+                src="https://res.cloudinary.com/dcwzstwur/image/upload/v1762178928/iPhone_16_Pro_-_11_1_z6ad7r.png"
+                alt="Hush App Login Screen"
+                width={192} // From original w-48 class (12rem * 16px)
+                height={384} // From original h-96 class (24rem * 16px)
+                className="rounded-2xl shadow-xl border-4 border-muted-foreground/20"
+              />
+              {/* --- Replaced placeholder with Image component --- */}
+              <Image
+                src="https://res.cloudinary.com/dcwzstwur/image/upload/v1762178927/iPhone_16_Pro_-_7_2x_xtz9la.png"
+                alt="Hush App Home Screen"
+                width={192} // From original w-48 class
+                height={384} // From original h-96 class
+                className="rounded-2xl shadow-xl border-4 border-muted-foreground/20"
+              />
             </div>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import modelDiagram from "@/assets/model-diagram.jpg";
 
 export default function IdeaSection() {
   return (
@@ -15,8 +14,11 @@ export default function IdeaSection() {
                 The Subscription Model
               </h3>
               <p className="text-foreground/80 leading-relaxed">
-                Our model was simple: drivers would pay a flat daily subscription fee to use the
-                platform, allowing them to keep 100% of their earnings from every ride.
+                Our model aimed to fix the core problem: driver earnings.
+                Instead of high, unpredictable commissions of 25-30%, drivers
+                would pay a simple, flat subscription fee. This allowed them to
+                keep 100% of their fares, providing a stable income and full
+                financial control.
               </p>
             </div>
             <div>
@@ -24,18 +26,21 @@ export default function IdeaSection() {
                 The Sponsorship Model
               </h3>
               <p className="text-foreground/80 leading-relaxed">
-                To make rides more affordable, fares were partially subsidized by corporate
-                sponsors. A rider might pay ₹80, and a local sponsor would pay the remaining ₹20,
-                creating a win-win.
+                For passengers, we offered lower, more predictable fares by
+                creating an AI-enhanced advertising platform. Brands could
+                sponsor rides by subsidizing a portion of the fare , creating a
+                win-win: riders get cheaper rides, and advertisers get direct
+                engagement.
               </p>
             </div>
           </div>
           <div>
             <Image
-              src={modelDiagram}
-              alt="Driver-Sponsor-Rider Relationship"
-              className="w-full rounded-lg shadow-xl"
-              placeholder="blur"
+              src="https://res.cloudinary.com/dcwzstwur/image/upload/v1762169661/8_sc9snp.png"
+              alt="Hush Model: Driver-Sponsor-Rider Relationship"
+              className="w-full h-auto rounded-lg shadow-xl"
+              width={1280}
+              height={720}
             />
           </div>
         </div>

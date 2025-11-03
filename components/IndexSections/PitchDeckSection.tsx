@@ -9,19 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import pitchSlide1 from "@/assets/pitch-slide-1.jpg";
-import pitchSlide2 from "@/assets/pitch-slide-2.jpg";
-import pitchSlide3 from "@/assets/pitch-slide-3.jpg";
-import pitchSlide4 from "@/assets/pitch-slide-4.jpg";
-import pitchSlide5 from "@/assets/pitch-slide-5.jpg";
-
-const pitchSlides = [
-  pitchSlide1,
-  pitchSlide2,
-  pitchSlide3,
-  pitchSlide4,
-  pitchSlide5,
-];
+import { pitchDeckSlides } from "@/lib/data";
 
 export default function PitchDeckSection() {
   return (
@@ -32,14 +20,15 @@ export default function PitchDeckSection() {
         </h2>
         <Carousel className="w-full">
           <CarouselContent>
-            {pitchSlides.map((slide, index) => (
+            {pitchDeckSlides.map((slideUrl, index) => (
               <CarouselItem key={index}>
                 <div className="p-1">
                   <Image
-                    src={slide}
+                    src={slideUrl}
                     alt={`Pitch Deck Slide ${index + 1}`}
-                    className="w-full rounded-lg shadow-2xl"
-                    placeholder="blur"
+                    className="w-full h-auto rounded-lg shadow-2xl"
+                    width={1280}
+                    height={720}
                   />
                 </div>
               </CarouselItem>

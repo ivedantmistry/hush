@@ -1,5 +1,7 @@
 import Image from "next/image";
-import grantSanction from "@/assets/grant-sanction.jpg";
+
+// Removed the local import:
+// import grantSanction from "@/assets/grant-sanction.jpg";
 
 export default function IncubationSection() {
   return (
@@ -11,10 +13,15 @@ export default function IncubationSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src={grantSanction}
+              // 1. Updated the src to the Cloudinary URL
+              src="https://res.cloudinary.com/dcwzstwur/image/upload/v1762179933/sanction_wmkfyc.jpg"
               alt="SSIP 2.0 Grant Sanction Letter"
-              className="w-full rounded-lg shadow-xl"
-              placeholder="blur"
+              // 2. Updated className for correct scaling
+              className="w-full h-auto rounded-lg shadow-xl"
+              // 3. Added required width and height (approximating A4 paper ratio)
+              width={850}
+              height={1100}
+              // 4. Removed placeholder="blur"
             />
           </div>
           <div className="space-y-4">
