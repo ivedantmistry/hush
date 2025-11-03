@@ -1,19 +1,17 @@
 "use client";
-import Image from "next/image"; // 1. Added Image import
+import Image from "next/image";
 
 export default function HeroSection() {
-  // 2. Removed unused function
   return (
     <section className="relative py-24 px-6 text-center bg-card">
       <div className="max-w-4xl mx-auto">
-        {/* 3. Added Logo Image */}
         <Image
           src="https://res.cloudinary.com/dcwzstwur/image/upload/v1762184373/HUSH_tb0whs.png"
           alt="Hush Logo"
-          width={256} 
-          height={64} // Base height (maintains aspect ratio)
-          className="mx-auto mb-8 h-auto w-48 md:w-64" // Responsive width
-          priority // Loads the logo faster (good for LCP)
+          width={256}
+          height={64}
+          className="mx-auto mb-8 h-auto w-48 md:w-64"
+          priority
         />
 
         <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground">
@@ -30,7 +28,7 @@ export default function HeroSection() {
             rel="noopener noreferrer"
             className="font-semibold text-primary underline underline-offset-4"
           >
-            Vedant Mistry{/* 4. Added arrow back */}
+            Vedant Mistry
           </a>{" "}
           and{" "}
           <span className="font-semibold text-primary">Hrishikesh Singh</span>.

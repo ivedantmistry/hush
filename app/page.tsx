@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import MyPage from "./MyPage"; // Import the new content component
+import MyPage from "./MyPage";
 
-// 1. Add SEO and Metadata
 export const metadata: Metadata = {
   title: "Hush: The future of fair rides | Vedant Mistry",
   description:
@@ -13,10 +12,10 @@ export const metadata: Metadata = {
     siteName: "Hush Cabs",
     images: [
       {
-        url: "https://res.cloudinary.com/dcwzstwur/image/upload/v1762169661/8_sc9snp.png",
+        url: "https://res.cloudinary.com/dcwzstwur/image/upload/v1762184373/HUSH_tb0whs.png",
         width: 1280,
         height: 720,
-        alt: "Hush Business Model",
+        alt: "Hush Logo",
       },
     ],
     locale: "en_US",
@@ -27,7 +26,7 @@ export const metadata: Metadata = {
     title: "Hush: A Data-Driven Entrepreneurial Experiment",
     description: "A case study in Lean Startup and market validation.",
     images: [
-      "https://res.cloudinary.com/dcwzstwur/image/upload/v1762169661/8_sc9snp.png",
+      "https://res.cloudinary.com/dcwzstwur/image/upload/v1762184373/HUSH_tb0whs.png",
     ],
   },
   authors: [{ name: "Vedant Mistry" }],

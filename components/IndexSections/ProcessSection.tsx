@@ -11,8 +11,7 @@ export default function ProcessSection() {
           real-world validation. This process was backed by a{" "}
           <span className="font-semibold text-primary">
             ₹2,40,000 grant from SSIP 2.0
-          </span>{" "}
-          , which we secured to fund our market research, prototype development,
+          </span>{" "}, which we secured to fund our market research, prototype development,
           and viability testing.
         </p>
       </div>
