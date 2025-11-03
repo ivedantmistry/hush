@@ -8,9 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Hush: A Data-Driven Entrepreneurial Experiment",
   description: "A case study in Lean Startup and market validation.",
-  icons: {
-    icon: "/favicon.ico",
-  },
+
+  // --- Updated this line ---
+  icons:
+    "https://res.cloudinary.com/dcwzstwur/image/upload/v1762184373/HUSH_tb0whs.png",
 };
 
 export default function RootLayout({
