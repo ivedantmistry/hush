@@ -88,7 +88,7 @@ export default function TeamSection() {
               {/* Social Links */}
               <div className="flex justify-center gap-4 my-4">
                 <a
-                  href="https://www.linkedin.com/in/ivedantmistry/" // <-- Add Vedant's LinkedIn URL here
+                  href="https://www.linkedin.com/in/ivedantmistry/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -97,7 +97,7 @@ export default function TeamSection() {
                   <IconLinkedIn className="h-6 w-6" />
                 </a>
                 <a
-                  href="https://github.com/ivedantmistry" // <-- Add Vedant's GitHub URL here
+                  href="https://github.com/ivedantmistry"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
@@ -106,7 +106,7 @@ export default function TeamSection() {
                   <IconGitHub className="h-6 w-6" />
                 </a>
                 <a
-                  href="https://www.vedantmistry.me/"
+                  href="https://www.vedantmistry.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary"
