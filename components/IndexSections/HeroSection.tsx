@@ -23,7 +23,7 @@ export default function HeroSection() {
         <p className="text-lg mb-10 text-foreground/80 max-w-3xl mx-auto leading-relaxed">
           A project by{" "}
           <a
-            href="https://www.vedantmistry.me/"
+            href="https://www.vedantmistry.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-primary underline underline-offset-4"
